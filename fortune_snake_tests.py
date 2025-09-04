@@ -36,92 +36,62 @@ class FortuneSnakeGameTester(unittest.TestCase):
             self.driver.quit()
     
     def load_game(self):
-        """Load the game and wait for it to initialize"""
+        """Load the game and wait for it to initialize - OPTIMIZED"""
         print("Loading game...")
         self.driver.get(self.game_url)
         
-        # Wait for initial page load
-        WebDriverWait(self.driver, 15).until(
+        # Quick page load check
+        WebDriverWait(self.driver, 8).until(
             lambda driver: driver.execute_script("return document.readyState") == "complete"
         )
-        print("Initial page load complete")
+        print("Page loaded")
         
-        # Wait and click through loading screen
+        # Fast game initialization
         try:
-            # First wait for canvas to be present
-            canvas = WebDriverWait(self.driver, 10).until(
+            # Wait for canvas with shorter timeout
+            canvas = WebDriverWait(self.driver, 5).until(
                 EC.presence_of_element_located((By.TAG_NAME, "canvas"))
             )
-            print("Canvas element found")
             
-            # Click canvas multiple times to ensure game starts
-            for _ in range(3):
-                try:
-                    canvas.click()
-                    time.sleep(2)
-                except:
-                    pass
+            # Quick click sequence
+            canvas.click()
+            time.sleep(1)
             
-            # Try clicking specific game elements
-            click_selectors = [
-                (By.TAG_NAME, "canvas"),
-                (By.CSS_SELECTOR, ".start-button, .play-button, .enter-button"),
-                (By.XPATH, "//div[contains(text(), 'Click')]"),
-                (By.XPATH, "//div[contains(text(), 'Tap')]"),
-                (By.XPATH, "//button[contains(text(), 'Play')]"),
-                (By.XPATH, "//button[contains(text(), 'Start')]"),
-                (By.TAG_NAME, "body")
-            ]
+            # Try keyboard shortcuts immediately
+            body = self.driver.find_element(By.TAG_NAME, "body")
+            body.send_keys(Keys.SPACE)
+            body.send_keys(Keys.ENTER)
+            time.sleep(1)
             
-            for by, selector in click_selectors:
-                try:
-                    element = WebDriverWait(self.driver, 5).until(
-                        EC.element_to_be_clickable((by, selector))
-                    )
-                    element.click()
-                    print(f"Clicked element: {selector}")
-                    time.sleep(2)
-                    
-                    # Try pressing Space and Enter keys
-                    element.send_keys(Keys.SPACE)
-                    element.send_keys(Keys.RETURN)
-                    time.sleep(1)
-                except:
-                    continue
+            # One more canvas click
+            canvas.click()
+            time.sleep(2)  # Reduced from 5 to 2 seconds
             
-            # Wait for game to be fully loaded
-            time.sleep(5)
-            print("Game loading sequence completed")
+            print("Game ready")
             
         except Exception as e:
-            print(f"Warning: Loading sequence handling encountered an issue: {e}")
-            # Try one last time to click the canvas
+            print(f"Quick load failed, trying backup: {e}")
+            # Backup method - just click anywhere
             try:
-                self.driver.find_element(By.TAG_NAME, "canvas").click()
+                self.driver.find_element(By.TAG_NAME, "body").click()
+                time.sleep(1)
             except:
                 pass
         
-        # Verify game is ready
-        try:
-            # Look for common game elements that indicate game is ready
-            game_elements = [
-                ".spin-button", ".bet-button", ".menu-button",
-                ".balance", ".credit", "[class*='balance']"
-            ]
-            
-            for selector in game_elements:
-                if self.wait_for_element(By.CSS_SELECTOR, selector, 5):
-                    print("Game is ready - found active game elements")
-                    return True
-                    
-        except Exception as e:
-            print(f"Warning: Game readiness check failed: {e}")
-        
-        print("Game loading complete - proceeding with tests")
         return True
     
-    def wait_for_element_visible(self, locator_type, locator_value, timeout=10):
-        """Helper method to wait for element to be visible"""
+    def wait_for_element(self, locator_type, locator_value, timeout=3):
+        """Helper method to wait for element - FAST"""
+        try:
+            element = WebDriverWait(self.driver, timeout).until(
+                EC.presence_of_element_located((locator_type, locator_value))
+            )
+            return element
+        except:
+            return None
+            
+    def wait_for_element_visible(self, locator_type, locator_value, timeout=5):
+        """Helper method to wait for element to be visible - FAST"""
         try:
             element = WebDriverWait(self.driver, timeout).until(
                 EC.visibility_of_element_located((locator_type, locator_value))
@@ -166,7 +136,7 @@ class FortuneSnakeGameTester(unittest.TestCase):
         
         if enter_button:
             enter_button.click()
-            time.sleep(3)
+            time.sleep(1)  # Reduced from 3 to 1 second
             print("✓ Successfully entered the game")
         else:
             print("✓ Game loaded directly without entry button")
@@ -194,12 +164,12 @@ class FortuneSnakeGameTester(unittest.TestCase):
                 if fullscreen_btn:
                     # Test entering fullscreen
                     fullscreen_btn.click()
-                    time.sleep(2)
+                    time.sleep(1)  # Reduced from 2 to 1 second
                     print("✓ Fullscreen mode activated")
                     
                     # Test exiting fullscreen
                     fullscreen_btn.click()
-                    time.sleep(2)
+                    time.sleep(1)  # Reduced from 2 to 1 second
                     print("✓ Fullscreen mode deactivated")
                     break
             except:
@@ -227,12 +197,12 @@ class FortuneSnakeGameTester(unittest.TestCase):
                 if sound_btn:
                     # Toggle sound off
                     sound_btn.click()
-                    time.sleep(1)
+                    time.sleep(0.5)  # Reduced from 1 to 0.5 seconds
                     print("✓ Sound toggled off")
                     
                     # Toggle sound on
                     sound_btn.click()
-                    time.sleep(1)
+                    time.sleep(0.5)  # Reduced from 1 to 0.5 seconds
                     print("✓ Sound toggled on")
                     break
             except:
