@@ -1,0 +1,37 @@
+FORTUNE SNAKE GAME - TEST REQUIREMENTS
+==========================================
+
+GAME URL: https://games.microslot.co/fortunesnake/index.html?token=68b93925e82dd6465b63ba8e_141
+
+BASIC GAME FLOW:
+1. Game loads
+2. User can place bet
+3. User can spin/play
+4. Game shows results
+5. User balance updates
+
+ELEMENTS TO TEST:
+- Bet buttons (increase/decrease)
+- Spin/Play button
+- Balance display
+- Win/loss animations
+- Sound effects
+- Game history
+
+REFERENCE GAME (if any): [ADD SIMILAR GAME URL HERE]
+
+SPECIFIC TEST CASES NEEDED:
+- Minimum bet functionality
+- Maximum bet functionality
+- Win scenarios
+- Loss scenarios
+- Network disconnection
+- Mobile responsiveness
+- Browser compatibility
+
+ADD YOUR SPECIFIC REQUIREMENTS BELOW:
+=====================================
+[Write what specific features your game should have]
+[What should happen when user wins?]
+[What should happen when user loses?]
+[Any special game mechanics?]
