@@ -11,7 +11,7 @@ import random
 class Complete100Tests:
     def __init__(self):
         self.driver = None
-        self.game_url = "https://games.microslot.co/fortunesnake/index.html?token=68be85185cc7576799d9d0d4_443"
+        self.game_url = "https://games.microslot.co/fortunesnake/index.html?token=68beb5dd4b63b828b835b770_184"
         self.test_results = []
         self.current_test = 0
         
