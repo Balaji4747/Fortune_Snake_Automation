@@ -1,0 +1,14 @@
+{
+  "settingsConfig" : {
+    "_minValues": [5, 5, 0, 1, 0, 1, 1, 1],
+    "_maxValues": [100, 150, 150, 200, 1, 10, 10, 10],
+    "firstReelSymbolPassCount": 8,
+    "otherReelsSymbolPassCount": 5,
+    "anticipationSymbolPassCount": 0,
+    "reelSpinSpeedMax": 70,
+    "reelReboundValue": 0.12,
+    "bigWinSkipDelay": 1,
+    "expandingWildDuration" : 1,
+    "bigWinDuration": 5
+  }
+}

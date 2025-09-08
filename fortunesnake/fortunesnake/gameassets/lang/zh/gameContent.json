@@ -1,0 +1,20 @@
+{
+  "wildText": "黄金锁重转，收集全部 9 个符号可获得 大奖。",
+  "scatterText": "「财神」符号出现在中间转轴，触发黄金锁重转。",
+  "youwonText": "你赢了",
+  "congratsText": "恭喜！",
+  "FStext1": "黄金锁重转",
+  "FStext2": "收集全部 9 个符号",
+  "FStext3": "可获得",
+  "FStext4": "大奖！",
+  "totalWin": "总奖分",
+  "BS_content": "包含 0.5x、1x、2x 的随机乘数",
+  "CS_content": "「财神」可作为「收集」符号或「散布」符号使用",
+  "GS_content": "包含 7x、8x、9x 和 10x 的随机乘数",
+  "JMYS_content": "「神秘大奖」符号会随机揭示「大奖」奖励",
+  "MYS_content": "「神秘」符号会在支付线随机揭示「元宝」或「大奖」奖励",
+  "Major_content": "50x 乘数",
+  "Mini_content": "15x 乘数",
+  "Minor_content": "25x 乘数",
+  "SS_content": "包含 3x、4x、5x 和 6x 的随机乘数"
+}

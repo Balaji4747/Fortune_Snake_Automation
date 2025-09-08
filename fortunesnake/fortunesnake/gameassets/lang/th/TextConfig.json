@@ -1,0 +1,150 @@
+{
+    "FontFaces" : {
+        "commonFont1" : "Inter-Bold",
+        "commonFont2" : "Inter-Black",
+        "commonFont3" : "Inter-BoldItalic",
+        "commonFont4" : "Inter-Medium",
+        "gameFont1" : "KOMIKA"
+    },
+    "FontFiles" : {
+        "PrimaryFonts" : [
+            {"name" : "Inter-Black", "type" : "common", "file" : "Inter-Black.ttf", "otfile" : "TechnaSans-Regular.otf"},
+            {"name" : "Inter-Bold", "type" : "common", "file" : "Inter-Bold.ttf", "otfile" : "TechnaSans-Regular.otf"},
+            {"name" : "Inter-Medium", "type" : "common", "file" : "Inter-Medium.ttf", "otfile" : "TechnaSans-Regular.otf"},
+            {"name" : "Inter-BoldItalic", "type" : "common", "file" : "Inter-BoldItalic.otf", "otfile" : "TechnaSans-Regular.otf"}
+        ],
+        "SecondaryFonts" : [
+            {"name" : "KOMIKA", "type" : "game", "file" : "KOMIKA.ttf", "otfile" : "TechnaSans-Regular.otf"}
+        ]
+    },
+    "FontConfig" : {
+        "commonFontStyle" : {
+            "Desktop": {"fontFamily": "commonFont1", "fontSize": 24, "fill": "0xFFFFFF"},
+            "Tablet": {"fontFamily": "commonFont1", "fontSize": 24, "fill": "0xFFFFFF"},
+            "Mobile": {"fontFamily": "commonFont1", "fontSize": 24, "fill": "0xFFFFFF"}
+        },
+        "commonBoldFontStyle" : {
+            "Desktop": {"fontFamily": "commonFont2", "fontSize": 24, "fill": "0xFFFFFF", "letterSpacing" : 1.2},
+            "Tablet": {"fontFamily": "commonFont2", "fontSize": 24, "fill": "0xFFFFFF"},
+            "Mobile": {"fontFamily": "commonFont2", "fontSize": 24, "fill": "0xFFFFFF"}
+        },
+        "commonBoldItalicFontStyle" : {
+            "Desktop": {"fontFamily": "commonFont3", "fontSize": 24, "fill": "0xFFFFFF", "letterSpacing" : 1},
+            "Tablet": {"fontFamily": "commonFont3", "fontSize": 24, "fill": "0xFFFFFF"},
+            "Mobile": {"fontFamily": "commonFont3", "fontSize": 24, "fill": "0xFFFFFF"}
+        },
+        "gameFont1Style" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 38, "fill": ["0x11a802", "0x4cd00c", "0x5acc13", "0x91ed22", "0x98f124", "0xaafc29", "0xacff2a", "0x0cb502", "0x16dc14", "0x0f3d00"], "trim": true },
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 38, "fill": ["0x11a802", "0x4cd00c", "0x5acc13", "0x91ed22", "0x98f124", "0xaafc29", "0xacff2a", "0x0cb502", "0x16dc14", "0x0f3d00"], "trim": true },
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 55, "fill": ["0x11a802", "0x4cd00c", "0x5acc13", "0x91ed22", "0x98f124", "0xaafc29", "0xacff2a", "0x0cb502", "0x16dc14", "0x0f3d00"], "trim": true }
+        },
+        "gameFont2Style" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 62, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7, "padding": 5, "trim": true },
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 62, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7, "padding": 5, "trim": true },
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 62, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7, "padding": 5, "trim": true }
+        },
+        "bonusInstructionStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 36, "fill": "0xFFFFFF", "stroke" : "0x000000", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" :  6, "dropShadowAlpha" :  0.4, "letterSpacing" : 2},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 36, "fill": "0xFFFFFF", "stroke" : "0x000000", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" :  6, "dropShadowAlpha" :  0.4, "letterSpacing" : 2},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 36, "fill": "0xFFFFFF", "stroke" : "0x000000", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" :  6, "dropShadowAlpha" :  0.4, "letterSpacing" : 2}
+        },
+        "paytableDescStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 30, "fill": "0xFFFFFF", "stroke" : "0x000000", "wordWrap" :  true, "wordWrapWidth" :  750, "align" :  "center"},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 30, "fill": "0xFFFFFF", "stroke" : "0x000000", "wordWrap" :  true, "wordWrapWidth" :  750, "align" :  "center"},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 30, "fill": "0xFFFFFF", "stroke" : "0x000000", "wordWrap" :  true, "wordWrapWidth" :  750, "align" :  "center"}
+        },
+        "dontShowStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 50, "fill": ["0xf3cd5a", "0xe7a744", "0xe18b1a", "0xe28d11"], "stroke" : "0x753209", "strokeThickness" : 4, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.9, "align" :  "center"},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 50, "fill": ["0xf3cd5a", "0xe7a744", "0xe18b1a", "0xe28d11"], "stroke" : "0x753209", "strokeThickness" : 4, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.9, "align" :  "center"},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 40, "fill": ["0xf3cd5a", "0xe7a744", "0xe18b1a", "0xe28d11"], "stroke" : "0x753209", "strokeThickness" : 4, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.9, "align" :  "right" }
+        },
+        "volatilityStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 50, "fill": ["0xfff925"], "stroke" : "0x9e0000", "strokeThickness" : 4, "align" :  "center"},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 50, "fill": ["0xfff925"], "stroke" : "0x9e0000", "strokeThickness" : 4, "align" :  "center"},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 30, "fill": ["0xfff925"], "stroke" : "0x9e0000", "strokeThickness" : 4, "align" :  "center"}
+        },
+        "prizeTitleStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 60, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 60, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 90, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7}
+        },
+        "prizeMsgStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 26, "fill": "0xffffff", "wordWrap" : true, "wordWrapWidth" :  360, "align" : "center", "stroke" : "0x000000", "strokeThickness" : 2, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" :  4, "dropShadowAlpha" :  0.8, "letterSpacing" : 1},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 26, "fill": "0xffffff", "wordWrap" : true, "wordWrapWidth" :  360, "align" : "center", "stroke" : "0x000000", "strokeThickness" : 2, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" :  4, "dropShadowAlpha" :  0.8, "letterSpacing" : 1},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 26, "fill": "0xffffff", "wordWrap" : true, "wordWrapWidth" :  360, "align" : "center", "stroke" : "0x000000", "strokeThickness" : 2, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" :  4, "dropShadowAlpha" :  0.8, "letterSpacing" : 1}
+        },
+        "BonusPopupTitleStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 90, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 90, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 90, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7}
+        },
+        "minmaxTextStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 38, "fill": "0x000000", "wordWrap" : true, "wordWrapWidth" :  300, "align" : "center", "leading" : 10},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 38, "fill": "0x000000", "wordWrap" : true, "wordWrapWidth" :  300, "align" : "center", "lineSpacing" : 44},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 38, "fill": "0x000000", "wordWrap" : true, "wordWrapWidth" :  300, "align" : "center", "lineSpacing" : 44}
+        },
+        "paytableDescSplashStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 38, "fill": "0xFFFFFF", "wordWrap" :  true, "wordWrapWidth" :  650, "lineHeight" :  54, "align" :  "center", "padding": 50},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 38, "fill": "0xFFFFFF", "wordWrap" :  true, "wordWrapWidth" :  650, "lineHeight" :  54, "align" :  "center", "padding": 50},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 40, "fill": "0xFFFFFF", "wordWrap" :  true, "wordWrapWidth" :  650, "lineHeight" :  54, "align" :  "center", "padding": 50}
+        },
+        "awardValueStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 56, "fill": "0xFFFFFF", "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" :  4, "dropShadowAlpha" :  0.6},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 24, "fill": "0xFFFFFF"},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 24, "fill": "0xFFFFFF"}
+        },
+        "winAmountStyle" : {
+            "Desktop": {"type" : "BitmapFont", "fontFamily": "bitmapFont","fontSize": 120, "align" : "left", "letterSpacing": -20 },
+            "Tablet": {"type" : "BitmapFont", "fontFamily": "bitmapFont","fontSize": 120, "align" : "left" },
+            "Mobile": {"type" : "BitmapFont", "fontFamily": "bitmapFont","fontSize": 120, "align" : "left" }
+        },
+        "PopupTitleStyle" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 80, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 80, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 80, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7}
+        },
+        "PopupValueStyle" : {
+            "Desktop": {"fontFamily": "gameFont2", "fontSize": 80, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7},
+            "Tablet": {"fontFamily": "gameFont2", "fontSize": 80, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7},
+            "Mobile": {"fontFamily": "gameFont2", "fontSize": 80, "fill": ["0x864201", "0xffc100", "0xffec43", "0xffff9e", "0xffff34", "0xffdf0b", "0xffb800", "0xf99900"], "stroke" : "0x792819", "strokeThickness" : 6, "dropShadow" : true, "dropShadowColor" : "0x651f09", "dropShadowDistance" : 6, "dropShadowAlpha" :  0.7}
+        },
+        "PopupMessage1Style" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 66, "wordWrap": true, "wordWrapWidth": 800, "align":"center","fill": ["0xfafafa", "0xf2f2f2", "0xe5e5e5", "0xcbcbcb"], "stroke" : "0x6c6f5f", "strokeThickness" : 2, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.7},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 66, "wordWrap": true, "wordWrapWidth":800, "align":"center","fill": ["0xfafafa", "0xf2f2f2", "0xe5e5e5", "0xcbcbcb"], "stroke" : "0x6c6f5f", "strokeThickness" : 2, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.7},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 66, "wordWrap": true, "wordWrapWidth": 800, "align":"center","fill": ["0xfafafa", "0xf2f2f2", "0xe5e5e5", "0xcbcbcb"], "stroke" : "0x6c6f5f","strokeThickness" : 2, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.7}
+        },
+        "PopupMessage2Style" : {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 66, "fill": ["0x783535", "0xf35556","0xd14a4a", "0xea2e3b", "0xea1b2f"], "stroke" : "0xffffff", "strokeThickness" : 4, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.7},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 66, "fill": ["0x783535", "0xf35556","0xd14a4a", "0xea2e3b", "0xea1b2f"], "stroke" : "0xffffff", "strokeThickness" : 4, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.7},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 66, "fill": ["0x783535", "0xf35556","0xd14a4a", "0xea2e3b", "0xea1b2f"], "stroke" : "0xffffff", "strokeThickness" : 4, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 4, "dropShadowAlpha" :  0.7}
+        },
+        "SplashStartNowStyle": {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 55, "fill": ["0xFFCE14", "0xFFFE36", "0xF0A502"], "stroke" : "0x5E2525", "strokeThickness" : 0.38, "dropShadow" : true, "dropShadowColor" : "0x350000", "dropShadowDistance" : 0.5, "dropShadowAlpha" : 0.7, "wordWrapWidth": 1400, "wordWrap": true, "padding": 50},
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 55, "fill": ["0xFFCE14", "0xFFFE36", "0xF0A502"], "stroke" : "0x5E2525", "strokeThickness" : 0.38, "dropShadow" : true, "dropShadowColor" : "0x350000", "dropShadowDistance" : 0.5, "dropShadowAlpha" : 0.7, "wordWrapWidth": 1400, "wordWrap": true, "padding": 50},
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 55, "fill": ["0xFFCE14", "0xFFFE36", "0xF0A502"], "stroke" : "0x5E2525", "strokeThickness" : 0.38, "dropShadow" : true, "dropShadowColor" : "0x350000", "dropShadowDistance" : 0.5, "dropShadowAlpha" : 0.7, "wordWrapWidth": 1400, "wordWrap": true, "padding": 50}
+        },
+        "FStTitleTextShadowStyle": {
+            "Desktop": {"fontFamily": "gameFont1", "fontSize": 76, "fill": "0x000000" , "stroke" : "0x701403", "strokeThickness" : 0, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 32, "dropShadowAlpha" : 0.01, "dropShadowBlur": 0, "dropShadowAngle": -7.94, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true },
+            "Tablet": {"fontFamily": "gameFont1", "fontSize": 76, "fill": "0x000000" , "stroke" : "0x701403", "strokeThickness" : 0, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 32, "dropShadowAlpha" : 0.01, "dropShadowBlur": 0, "dropShadowAngle": -7.94, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true },
+            "Mobile": {"fontFamily": "gameFont1", "fontSize": 100, "fill": "0x000000" , "stroke" : "0x701403", "strokeThickness" : 0, "dropShadow" : true, "dropShadowColor" : "0x000000", "dropShadowDistance" : 32, "dropShadowAlpha" : 0.01, "dropShadowBlur": 0, "dropShadowAngle": -7.94, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true }
+        },
+        "FStTitleTextStyle": {
+           "Desktop": {"fontFamily": "gameFont1", "fontSize": 76, "fill": ["0xfff9ce", "0xfee895", "0xf9e91f", "0xfacc21", "0xe5b40c"], "stroke" : "0xfbcf2b", "strokeThickness" : 2.8, "dropShadow" : true, "dropShadowColor" : "0x480c00", "dropShadowDistance" : 1.8, "dropShadowAlpha" : 1, "dropShadowBlur": 2, "dropShadowAngle": 0.665, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true },
+           "Tablet": {"fontFamily": "gameFont1", "fontSize": 76, "fill": ["0xfff9ce", "0xfee895", "0xf9e91f", "0xfacc21", "0xe5b40c"], "stroke" : "0xfbcf2b", "strokeThickness" : 2.8, "dropShadow" : true, "dropShadowColor" : "0x480c00", "dropShadowDistance" : 1.8, "dropShadowAlpha" : 1, "dropShadowBlur": 2, "dropShadowAngle": 0.665, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true },
+           "Mobile": {"fontFamily": "gameFont1", "fontSize": 100, "fill": ["0xfff9ce", "0xfee895", "0xf9e91f", "0xfacc21", "0xe5b40c"], "stroke" : "0xfbcf2b", "strokeThickness" : 2.8, "dropShadow" : true, "dropShadowColor" : "0x480c00", "dropShadowDistance" : 1.8, "dropShadowAlpha" : 1, "dropShadowBlur": 2, "dropShadowAngle": 0.665, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true }
+           
+       },
+       "FStTitleTextStyle1": {
+           "Desktop": {"fontFamily": "gameFont1", "fontSize": 76, "fill": ["0x831c00", "0xa73909"] , "stroke" : "0xdd6100", "strokeThickness" : 0, "dropShadow" : true, "dropShadowColor" : "0xdd6100", "dropShadowDistance" : 11.25, "dropShadowAlpha" : 1, "dropShadowBlur": 0.9, "dropShadowAngle": -11.25, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true },
+           "Tablet": {"fontFamily": "gameFont1", "fontSize": 76, "fill": ["0x831c00", "0xa73909"] , "stroke" : "0xdd6100", "strokeThickness" : 0, "dropShadow" : true, "dropShadowColor" : "0xdd6100", "dropShadowDistance" : 11.25, "dropShadowAlpha" : 1, "dropShadowBlur": 0.9, "dropShadowAngle": -11.25, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true },
+           "Mobile": {"fontFamily": "gameFont1", "fontSize": 100, "fill": ["0x831c00", "0xa73909"] , "stroke" : "0xdd6100", "strokeThickness" : 0, "dropShadow" : true, "dropShadowColor" : "0xdd6100", "dropShadowDistance" : 11.25, "dropShadowAlpha" : 1, "dropShadowBlur": 0.9, "dropShadowAngle": -11.25, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true }
+       },
+       "FStTitleTextStyle2": {
+           "Desktop": {"fontFamily": "gameFont1", "fontSize": 76, "fill": ["0x6b2213", "0x8d2e13", "0xac3701", "0x6b2213"] , "stroke" : "0x701403", "strokeThickness" : 5.6, "dropShadow" : true, "dropShadowColor" : "0x701403", "dropShadowDistance" : 22, "dropShadowAlpha" : 0.01, "dropShadowBlur": 0, "dropShadowAngle": 10.085, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true },
+           "Tablet": {"fontFamily": "gameFont1", "fontSize": 76, "fill": ["0x6b2213", "0x8d2e13", "0xac3701", "0x6b2213"] , "stroke" : "0x701403", "strokeThickness" : 5.6, "dropShadow" : true, "dropShadowColor" : "0x701403", "dropShadowDistance" : 22, "dropShadowAlpha" : 0.01, "dropShadowBlur": 0, "dropShadowAngle": 10.085, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true },
+           "Mobile": {"fontFamily": "gameFont1", "fontSize": 100, "fill": ["0x6b2213", "0x8d2e13", "0xac3701", "0x6b2213"] , "stroke" : "0x701403", "strokeThickness" : 5.6, "dropShadow" : true, "dropShadowColor" : "0x701403", "dropShadowDistance" : 22, "dropShadowAlpha" : 0.01, "dropShadowBlur": 0, "dropShadowAngle": 10.085, "wordWrapWidth": 1400, "wordWrap": true, "padding": 10, "trim": true }
+       }
+
+    }
+
+}

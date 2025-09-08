@@ -1,0 +1,93 @@
+/*
+@font-face {
+    font-family: TechnaSans-Regular;
+    src: url("../../common/fonts/TechnaSans-Regular.otf");
+}
+*/
+
+
+html,
+body {
+    font-family: 'Inter-Bold';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    touch-action: pan-x pan-y;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#preload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#preload-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloadercenter {
+    width: 50%;
+    object-fit: contain;
+}
+
+/*canvas {*/
+/*    height: 100%;*/
+/*    image-rendering: -moz-crisp-edges;*/
+/*    image-rendering: -webkit-crisp-edges;*/
+/*    image-rendering: pixelated;*/
+/*    image-rendering: crisp-edges;*/
+/*}*/
+
+.payline-container {
+    margin: 5px;
+}
+
+.paytable img {
+    width: 100px;
+}
+
+.scatter_info img {
+    width: 150px;
+}
+
+#paytable {
+    /* width: 50%; */
+}
+.paytable_values{
+    margin: 0;
+}
+.fishing-bonus img {
+    width: 10%;
+    margin: 5px;
+}
+
+@media (orientation: portrait) {
+    .paytable_values {
+        margin: 0;
+        width: 90%;
+    }
+    .lower {
+        padding-left: 0px;
+    }
+    .jackpot_div .samp_divs {
+        width: 100%;
+    }
+    .jackpot_div .samp_divs .paytable_values {
+        width: 10%;
+    }
+
+}

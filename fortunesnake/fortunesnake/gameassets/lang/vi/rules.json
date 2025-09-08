@@ -1,0 +1,40 @@
+{
+  "gamerules": {
+    "rtp": "97.00%.",
+    "lastdate": "14 June 2022",
+    "gamerules1": "Money Pot là một video slot với 3 cuộn và 3 hàng.",
+    "gamerules2": "Số dòng thanh toán cố định là 3, trả thưởng từ trái sang phải.",
+    "yuanboSymbolHeading": "BIỂU TƯỢNG YUANBAO",
+    "yuanboSymbolText": "Biểu tượng Yuanbao tương ứng với các Hệ số nhân sau đây",
+    "maxWinRule": "THẮNG TỐI ĐA: Số tiền thắng tối đa giới hạn ở 3.000 lần cược trong cả trò chơi cơ bản và Golden Lock Respins. Nếu tổng số tiền thắng trong một vòng đạt 3.000 lần cược, vòng sẽ kết thúc ngay lập tức, tiền thắng được trao và tất cả vòng quay còn lại bị mất.",
+    "csSymbHeading": "BIỂU TƯỢNG CAISHEN",
+    "csText1": "Biểu tượng Caishen xuất hiện trên tất cả các cuộn. Trong trò chơi cơ bản, Caishen là biểu tượng Thu thập khi xuất hiện trên dòng trả thưởng thắng và là biểu tượng Scatter khi xuất hiện ở cuộn giữa.",
+    "csText2": "Biểu tượng Thu thập: Biểu tượng Caishen thu thập tất cả phần thưởng Yuanbao trên màn hình và cộng vào bản thân nó, không loại bỏ phần thưởng Yuanbao.",
+    "csText3": "Biểu tượng Scatter: Biểu tượng Caishen thu thập tất cả phần thưởng Yuanbao trên màn hình và mang chúng vào Golden Lock Respins. Nếu không có biểu tượng Yuanbao nào để thu thập, nó sẽ trở thành biểu tượng Thu thập Hệ số nhân khi vòng Golden Lock Respin bắt đầu.",
+    "csText4": "Golden Lock Respins: Biểu tượng Caishen hoạt động như một biểu tượng Thu thập Hệ số nhân.",
+    "csText5": "Biểu tượng Thu thập Hệ số nhân: Nếu biểu tượng Caishen xuất hiện trên màn hình, nó thu thập tất cả phần thưởng Yuanbao và cộng vào bản thân. Sau đó áp dụng hệ số nhân thêm là x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15, x16, x17, x18, x19 hoặc lên đến x20.",
+    "jackpotSymbHeading": "BIỂU TƯỢNG JACKPOT",
+    "jackPotSymbolText1": "Biểu tượng Jackpot xuất hiện trên tất cả các cuộn. Giải Jackpot: Hệ số nhân cố định x số tiền cược của người chơi",
+    "msSymbolHeading": "BIỂU TƯỢNG BÍ ẨN",
+    "msText1": "Biểu tượng Bí Ẩn xuất hiện trong trò chơi chính và Golden Lock Respin.",
+    "msText2": "Trò chơi chính: Xuất hiện trên dòng thắng sẽ ngẫu nhiên thưởng biểu tượng Yuanbao hoặc giải Jackpot.",
+    "msText3": "Nếu Biểu tượng Bí Ẩn xuất hiện trong trò chơi chính và kích hoạt Golden Lock Respin, nó sẽ được giữ lại trong Golden Lock Respin.",
+    "msText4": "Golden Lock Respin: Nếu Biểu tượng Bí Ẩn xuất hiện trong Golden Lock Respin, nó sẽ ngẫu nhiên tiết lộ phần thưởng Yuanbao hoặc Jackpot trước khi kết toán cuối cùng.",
+    "jmsSymbolHeading": "BIỂU TƯỢNG BÍ ẨN JACKPOT",
+    "jmsText1": "Biểu tượng này là Biểu tượng Bí Ẩn Jackpot, chỉ xuất hiện trong Golden Lock Respins.",
+    "jmsText2": "Nó sẽ tiết lộ trước khi kết toán và chỉ tiết lộ biểu tượng Jackpot.",
+    "glrSymbolHeading": "VÒNG QUAY LẠI GOLDEN LOCK",
+    "glrText1": "Mỗi lần vòng Golden Lock Respin được kích hoạt, bạn sẽ nhận được 3 lượt quay.",
+    "glrText2": "Nếu bất kỳ biểu tượng Yuanbao, biểu tượng Jackpot, biểu tượng Bí Ẩn, Biểu tượng Bí Ẩn Jackpot và biểu tượng Caishen nào xuất hiện, số lượt quay sẽ được đặt lại thành 3.",
+    "glrText3": "Trong Golden Lock Respin, nếu tất cả vị trí trên cuộn được lấp đầy bởi bất kỳ biểu tượng nào, Giải Thưởng Lớn Full Reel Reward với hệ số nhân cố định 3.000 lần cược người chơi sẽ được trao.",
+    "mpfSymbolHeading": "TÍNH NĂNG MONEY POT",
+    "mpfText1": "Trong trò chơi chính, nếu biểu tượng Caishen xuất hiện trên màn hình, tính năng sẽ được kích hoạt ngẫu nhiên.",
+    "mpfText2": "Khi tính năng được kích hoạt, màn hình sẽ ngẫu nhiên hiển thị các biểu tượng Yuanbao hoặc biểu tượng Caishen.",
+    "mpfText3": "Số lượng Yuanbao trong Money Pot không ảnh hưởng đến xác suất.",
+    "multiplierValue": "0.5x, 1x, 2x"
+  },
+  "headings": {
+    "gameName": "MONEY POT",
+    "winUpto": "THẮNG LÊN ĐẾN 3.000 LẦN CƯỢC"
+  }
+}

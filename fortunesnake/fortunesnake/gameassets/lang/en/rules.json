@@ -1,0 +1,44 @@
+{
+    "gamerules": {
+        "rtp": "97.00%.",
+        "lastdate": "14 June 2022",
+        "gamerules1": "Money Pot is a 3 reels 3 rows video slot.",
+        "gamerules2": "The number of paylines is fixed at 3, pays from left to right.",
+        "yuanboSymbolHeading": "YUANBAO SYMBOL",
+        "yuanboSymbolText": "Yuanbao symbols correspond to the following Multipliers",
+        "maxWinRule": "MAX WIN: The maximum win amount is limited to 3,000x bet in both base game and Golden Lock Respins. If the total win in a round reaches 3,000x bet, the round ends immediately, the win is awarded, and all remaining spins are forfeited.",
+        "csSymbHeading": "CAISHEN SYMBOL",
+        "csText1": "The Caishen symbol will appear in all slots. In the base game, Caishen serves a Collection symbol when appears on a winning payline, and a Scatter symbol when appears at the center wheel.",
+        "csText2": "Collection symbols: Caishen symbol collects all Yuanbao bonuses on the screen and adds them to itself, without removing the Yuanbao bonuses.",
+        "csText3": "Scatter Symbol: Caishen symbol collects all Yuanbao bonuses on the screen and carries them into the Golden Lock Respins. If there are no Yuanbao symbols to collect, it will become a Multiplier Collection symbol once the Golden Lock Respin begins.",
+        "csText4": "Golden Locking Respins: The Caishen symbol acts as a Multiplier Collection symbol.",
+        "csText5": "Multiplier Collection Symbol: If a Caishen symbol appears on the screen, it collects all Yuanbao bonuses and adds them to itself. Then applies an additional multiplier of x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15, x16, x17, x18, x19, or up to x20.",
+        "jackpotSymbHeading": "JACKPOT SYMBOL",
+        "jackPotSymbolText1": "Jackpot symbols appear on all reels. Jackpot prize: Fixed Multiplier x Player Bet amount",
+   
+        "msSymbolHeading": "MYSTERY SYMBOL",
+        "msText1": "Mystery symbol appears in the main game and the Golden Lock Respin.",
+        "msText2": "Main Game: Appearing on the winning line will randomly award Yuanbao symbol or Jackpot prizes.",
+        "msText3": "If a Mystery Symbol appears in the main game and triggers the Golden Lock Respin, it carries over into the Golden Lock Respin.",
+        "msText4": "Golden Lock Respin: If the Mystery Symbol appears during the Golden Lock Respin, it will randomly reveal a Yuanbao or Jackpot prize before the final settlement.",
+       
+        "jmsSymbolHeading": "JACKPOT MYSTERY SYMBOL",
+        "jmsText1": "This symbol is the Jackpot Mystery symbol, which only appears during the Golden Lock Respins.",
+        "jmsText2": "It will reveal itself before the settlement and will only reveal the Jackpot symbol.",
+
+        "glrSymbolHeading": "GOLDEN LOCK RESPIN",
+        "glrText1": "Each time the Golden Lock Respin is triggered, you will receive 3 spins.",
+        "glrText2": "If any of Yuanbao symbols, Jackpot symbol, Mystery symbols, Jackpot Mystery Symbol, and Caishen symbol appear, the spins will be reset to 3 again.",
+        "glrText3": "During the Golden Lock Respin, if all reel positions are filled with any symbol, a Full Reel Reward Grand Jackpot, which is a fixed 3,000x multiplier of the player's bet will be awarded.",
+       
+        "mpfSymbolHeading": "Money Pot Feature",
+        "mpfText1": "In the main game, if the Caishen symbol appears on the screen, the feature is triggered randomly.",
+        "mpfText2": "When the feature is triggered, the screen will randomly display Yuanbao symbols or the Caishen symbol.",
+        "mpfText3": "The number of Yuanbao in the Money Pot does not affect the probability.",
+        "multiplierValue": "0.5x, 1x, 2x"
+    },
+    "headings": {
+        "gameName": " DOLPHIN REEF 2 ",
+        "winUpto": "WIN UP TO 3,000 X BET"
+    }
+}

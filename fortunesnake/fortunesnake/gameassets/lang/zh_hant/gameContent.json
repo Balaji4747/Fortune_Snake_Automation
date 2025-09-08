@@ -1,0 +1,20 @@
+{
+  "wildText": "黃金鎖重轉，收集全部 9 個符號可獲得 大獎。",
+  "scatterText": "「財神」符號出現在中間轉軸，觸發黃金鎖重轉。",
+  "youwonText": "你贏了",
+  "congratsText": "恭喜！",
+  "FStext1": "黃金鎖重轉",
+  "FStext2": "收集全部 9 個符號",
+  "FStext3": "可獲得",
+  "FStext4": "大獎！",
+  "totalWin": "總獎分",
+  "BS_content": "包含 0.5x、1x、2x 的隨機乘數",
+  "CS_content": "「財神」可作為「收集」符號或「散布」符號使用",
+  "GS_content": "包含 7x、8x、9x 和 10x 的隨機乘數",
+  "JMYS_content": "「神秘大獎」符號會隨機揭示「大獎」獎勵",
+  "MYS_content": "「神秘」符號會在支付線隨機揭示「元寶」或「大獎」獎勵",
+  "Major_content": "50x 乘數",
+  "Mini_content": "15x 乘數",
+  "Minor_content": "25x 乘數",
+  "SS_content": "包含 3x、4x、5x 和 6x 的隨機乘數"
+}

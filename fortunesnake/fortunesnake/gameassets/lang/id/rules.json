@@ -1,0 +1,40 @@
+{
+    "gamerules": {
+        "rtp": "97,00%.",
+        "lastdate": "14 Juni 2022",
+        "gamerules1": "Money Pot adalah slot video dengan 3 gulungan dan 3 baris.",
+        "gamerules2": "Jumlah garis pembayaran tetap 3, membayar dari kiri ke kanan.",
+        "yuanboSymbolHeading": "SIMBOL YUANBAO",
+        "yuanboSymbolText": "Simbol Yuanbao memberikan Pengali sebagai berikut",
+        "maxWinRule": "KEMENANGAN MAKSIMAL: Jumlah kemenangan maksimal dibatasi hingga 3.000x taruhan baik dalam permainan dasar maupun dalam fitur putaran ulang Golden Lock. Jika total kemenangan dalam satu putaran mencapai 3.000x taruhan, putaran akan berakhir segera, kemenangan akan diberikan, dan semua putaran yang tersisa akan dibatalkan.",
+        "csSymbHeading": "SIMBOL CAISHEN",
+        "csText1": "Simbol Caishen dapat muncul di semua slot. Dalam permainan dasar, simbol Caishen berfungsi sebagai simbol Koleksi saat muncul di garis pembayaran yang menang, dan sebagai simbol Scatter saat muncul di gulungan tengah.",
+        "csText2": "Simbol Koleksi: Simbol Caishen mengumpulkan semua bonus Yuanbao di layar dan menambahkannya ke dirinya sendiri tanpa menghapus simbol Yuanbao tersebut.",
+        "csText3": "Simbol Scatter: Simbol Caishen mengumpulkan semua bonus Yuanbao di layar dan membawanya ke fitur putaran ulang Golden Lock. Jika tidak ada simbol Yuanbao yang dikumpulkan, simbol ini akan menjadi simbol Koleksi Pengali saat fitur Golden Lock dimulai.",
+        "csText4": "Putaran Ulang Golden Lock: Simbol Caishen bertindak sebagai simbol Koleksi Pengali.",
+        "csText5": "Simbol Koleksi Pengali: Jika simbol Caishen muncul di layar, ia akan mengumpulkan semua bonus Yuanbao dan menambahkannya ke dirinya sendiri, lalu menerapkan pengali tambahan mulai dari x2 hingga x20.",
+        "jackpotSymbHeading": "SIMBOL JACKPOT",
+        "jackPotSymbolText1": "Simbol Jackpot dapat muncul di semua gulungan. Hadiah Jackpot: Pengali Tetap x Jumlah Taruhan Pemain",
+        "msSymbolHeading": "SIMBOL MISTERI",
+        "msText1": "Simbol Misteri muncul dalam permainan utama dan dalam fitur Golden Lock.",
+        "msText2": "Permainan Utama: Jika muncul di garis menang, akan memberikan hadiah acak berupa simbol Yuanbao atau Jackpot.",
+        "msText3": "Jika simbol Misteri muncul di permainan utama dan memicu fitur Golden Lock, simbol tersebut akan terbawa ke dalam fitur Golden Lock.",
+        "msText4": "Golden Lock: Jika simbol Misteri muncul selama fitur Golden Lock, simbol tersebut akan secara acak menampilkan hadiah Yuanbao atau Jackpot sebelum pembayaran akhir.",
+        "jmsSymbolHeading": "SIMBOL MISTERI JACKPOT",
+        "jmsText1": "Simbol ini adalah simbol Misteri Jackpot, yang hanya muncul selama fitur Golden Lock.",
+        "jmsText2": "Simbol ini akan terbuka sebelum pembayaran dan hanya akan menampilkan simbol Jackpot.",
+        "glrSymbolHeading": "PUTARAN ULANG GOLDEN LOCK",
+        "glrText1": "Setiap kali fitur Golden Lock dipicu, Anda akan mendapatkan 3 putaran.",
+        "glrText2": "Jika simbol Yuanbao, simbol Jackpot, simbol Misteri, simbol Misteri Jackpot, atau simbol Caishen muncul, jumlah putaran akan diatur ulang menjadi 3 kembali.",
+        "glrText3": "Selama fitur Golden Lock, jika semua posisi gulungan terisi dengan simbol apa pun, Jackpot Grand Full Reel akan diberikan, yaitu pengali tetap 3.000x dari taruhan pemain.",
+        "mpfSymbolHeading": "FITUR MONEY POT",
+        "mpfText1": "Dalam permainan utama, jika simbol Caishen muncul di layar, fitur akan dipicu secara acak.",
+        "mpfText2": "Saat fitur dipicu, layar akan secara acak menampilkan simbol Yuanbao atau simbol Caishen.",
+        "mpfText3": "Jumlah Yuanbao dalam Money Pot tidak memengaruhi kemungkinan terpicunya fitur.",
+        "multiplierValue": "0,5x, 1x, 2x"
+    },
+    "headings": {
+        "gameName": "Money Pot",
+        "winUpto": "MENANG HINGGA 3.000 X TARUHAN"
+    }
+}

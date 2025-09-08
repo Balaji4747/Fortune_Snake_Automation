@@ -1,0 +1,187 @@
+<!-- <main id="panelMain">
+    <header id="rulesPageHeader">
+        <div id="headerTitle">Help</div>
+        <img id="headerCloseBtn" src="gameassets/images/rulesCloseBtn.png" alt=""></img>
+    </header>
+</main> -->
+<header id="rulesHeader">
+    <div style="width: 24px;height: 24px;"></div>
+    <div class="heading"><span data-common="rulesHeading" class="common-rules"></span></div>
+    <div class="close" id="close_btn">
+        <img height="50%" src="../common/images/rulesCloseBtn.png" alt="">
+    </div>
+</header>
+
+<div class="lower" id="lower">
+    <div class="spinner-border text-light" role="status" id="loading-rules">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div id="lower_container">
+        <div class="mt-5">
+            <p data-game="gamerules1" class="game-rules info_contentText family-bold" style="margin-bottom: 0;"></p>
+            <p data-game="gamerules2" class="game-rules info_contentText family-bold"></p>
+        </div>
+        <div class="max mt-10">
+            <div>
+                <h4 data-game="yuanboSymbolHeading" class="game-rules info_headings"></h4>
+                <p data-game="yuanboSymbolText" class="game-rules info_contentText"></p>
+                <div class="paytable_samp">
+                    <div class="samp_divs">
+                        <img src="gameassets/paytableImages/GS.png" alt="">
+                        <div class="paytable_values">
+                            <p>7x, 8x, 9x, 10x</p>
+                        </div>
+                    </div>
+                    <div class="samp_divs">
+                        <img src="gameassets/paytableImages/SS.png" alt="">
+                        <div class="paytable_values">
+                            <p>3x, 4x, 5x, 6x</p>
+                        </div>
+
+                    </div>
+                    <div class="samp_divs">
+                        <img src="gameassets/paytableImages/BS.png" alt="">
+                        <div class="paytable_values">
+                            <p data-game="multiplierValue" class="game-rules"></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; margin: 35px 0 30px; ">
+            <div class="volatility">
+                <p class="volatility_text common-rules" data-common="volatilityText"></p>
+                <span class="volatility_imgs">
+                    <img src="gameassets/paytableImages/splash_volatilityOn.png" alt="">
+                    <img src="gameassets/paytableImages/splash_volatilityOn.png" alt="">
+                    <img src="gameassets/paytableImages/splash_volatilityOn.png" alt="">
+                    <img src="gameassets/paytableImages/splash_volatilityOff.png" alt="">
+                    <img src="gameassets/paytableImages/splash_volatilityOff.png" alt="">
+                </span>
+            </div>
+        </div>
+        <div class="game-rules winuptoText" data-game="winUpto">
+        </div>
+        <!-- <div class="common_rule">
+            <h1 data-common="maxWinText" class="common-rules info_headings"></h1>
+        </div>        <div>
+            <p data-game="maxWinRule" class="game-rules info_contentText"></p>
+        </div> -->
+        <div class="gamerules">
+            <!-- <div class="mt-40"> -->
+        </div>
+
+        <div class="max mt-10">
+            <div>
+                <h4 data-common="maxWinText" class="common-rules info_headings"></h4>
+                <p data-game="maxWinRule" class="game-rules info_contentText"></p>
+            </div>
+        </div>
+        <div class="fishing-bonus mt-10">
+            <div>
+                <h4 data-game="csSymbHeading" class="game-rules info_headings"></h4>
+                <p data-game="csText1" class="game-rules info_contentText"></p>
+                <p data-game="csText2" class="game-rules info_contentText"></p>
+                <p data-game="csText3" class="game-rules info_contentText"></p>
+                <p data-game="csText4" class="game-rules info_contentText"></p>
+                <p data-game="csText5" class="game-rules info_contentText"></p>
+            </div>
+        </div>
+        <div class="fishing-bonus mt-10">
+            <div class="common_rule">
+                <h1 data-game="jackpotSymbHeading" class="game-rules info_headings"></h1>
+                <p data-game="jackPotSymbolText1" class="game-rules info_contentText"></p>
+            </div>
+            <div class="paytable_samp jackpot_div">
+                <div class="samp_divs">
+                    <img src="gameassets/paytableImages/Mini.png" alt="">
+                    <div class="paytable_values">
+                        <p>15x</p>
+                    </div>
+                </div>
+                <div class="samp_divs">
+                    <img src="gameassets/paytableImages/Minor.png" alt="">
+                    <div class="paytable_values">
+                        <p>25x</p>
+                    </div>
+
+                </div>
+                <div class="samp_divs">
+                    <img src="gameassets/paytableImages/Major.png" alt="">
+                    <div class="paytable_values">
+                        <p>50x</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="common_rule">
+            <h1 data-game="msSymbolHeading" class="game-rules info_headings"></h1>
+            <p data-game="msText1" class="game-rules info_contentText"></p>
+            <p data-game="msText2" class="game-rules info_contentText"></p>
+            <p data-game="msText3" class="game-rules info_contentText"></p>
+            <p data-game="msText4" class="game-rules info_contentText"></p>
+        </div>
+        <div class="common_rule">
+            <h1 data-game="jmsSymbolHeading" class="game-rules info_headings"></h1>
+            <p data-game="jmsText1" class="game-rules info_contentText"></p>
+            <p data-game="jmsText2" class="game-rules info_contentText"></p>
+        </div>
+        <div class="common_rule">
+            <h1 data-game="glrSymbolHeading" class="game-rules info_headings"></h1>
+            <p data-game="glrText1" class="game-rules info_contentText"></p>
+            <p data-game="glrText2" class="game-rules info_contentText"></p>
+            <p data-game="glrText3" class="game-rules info_contentText"></p>
+        </div>
+        <div class="common_rule">
+            <h1 data-game="mpfSymbolHeading" class="game-rules info_headings"></h1>
+            <p data-game="mpfText1" class="game-rules info_contentText"></p>
+            <p data-game="mpfText2" class="game-rules info_contentText"></p>
+            <p data-game="mpfText3" class="game-rules info_contentText"></p>
+        </div>
+    </div>
+    <div class="common_rule">
+        <h1 data-common="paylineInfoHeading" class="common-rules info_headings"></h1>
+    </div>
+    <div class="paytable-main-container">
+        <div id="paytable" class="paytable_image">
+            <script src="gameassets/panel/paylines.js"></script>
+        </div>
+    </div>
+
+    <div class="common_rule" style="margin-top: 1em;">
+        <p data-game="highestWin" class="game-rules info_contentText"></p>
+        <p data-common="leftToRight" class="common-rules info_contentText" style="margin-bottom: 12px;"></p>
+        <p data-common="multipliedWins" class="common-rules info_contentText"></p>
+    </div>
+    <div class="common_rule">
+        <p data-common="spaceAndEnter" class="common-rules info_contentText"></p>
+        <span data-common="rtp_text" class="common-rules info_contentText"></span>
+        <span>&nbsp;</span>
+        <span data-game="rtp" class="game-rules info_contentText"></span>
+        <span>&nbsp;</span>
+        <p data-common="malfunction" class="game-rules info_contentText"></p>
+
+    </div>
+
+    <div class="common_rule">
+        <h1 data-common="howtoPlay" class="common-rules info_headings"></h1>
+        <p data-common="settingMenu" class="common-rules info_contentText"></p>
+        <p data-common="openGameRules" class="common-rules info_contentText"></p>
+    </div>
+
+    <div class="common_rule">
+        <h1 data-common="additionInfo" class="common-rules info_headings"></h1>
+        <p data-common="additionData1" class="common-rules info_contentText"></p>
+        <p data-common="additionData2" class="common-rules info_contentText"></p>
+        <p data-common="additionData3" class="common-rules info_contentText"></p>
+    </div>
+</div>
+</div>
+<div style="pointer-events: none;">
+    <span data-common="gameVersion" class="common-rules">Game Version</span>: <span id="gameVersion-value"></span>
+</div>
+
+<script src="../common/panel/js/slotRule.js"></script>

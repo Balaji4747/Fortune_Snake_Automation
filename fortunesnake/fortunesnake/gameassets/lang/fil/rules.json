@@ -1,0 +1,40 @@
+{
+    "gamerules": {
+        "rtp": "97.00%.",
+        "lastdate": "14 June 2022",
+        "gamerules1": "Ang Money Pot ay isang 3 reels 3 rows video slot.",
+        "gamerules2": "Ang bilang ng paylines ay nakapirmi sa 3, nagbabayad mula kaliwa papuntang kanan.",
+        "yuanboSymbolHeading": "SIMBOLO NG YUANBAO",
+        "yuanboSymbolText": "Ang mga simbolo ng Yuanbao ay tumutugma sa mga sumusunod na Multiplier",
+        "maxWinRule": "MAX WIN: Ang pinakamataas na halaga ng panalo ay limitado sa 3,000x na pustahan sa parehong base game at Golden Lock Respins. Kapag naabot ang kabuuang panalo na 3,000x na pustahan sa isang round, agad na matatapos ang round, maibibigay ang panalo, at mawawala ang natitirang spins.",
+        "csSymbHeading": "SIMBOLO NG CAISHEN",
+        "csText1": "Ang simbolo ng Caishen ay lalabas sa lahat ng slots. Sa base game, ang Caishen ay nagsisilbing Collection symbol kapag lumitaw sa winning payline, at Scatter symbol kapag lumitaw sa gitnang reel.",
+        "csText2": "Collection symbols: Kinokolekta ng simbolo ng Caishen ang lahat ng Yuanbao bonuses sa screen at idinadagdag ito sa sarili, nang hindi inaalis ang mga Yuanbao bonuses.",
+        "csText3": "Scatter Symbol: Kinokolekta ng simbolo ng Caishen ang lahat ng Yuanbao bonuses sa screen at dinadala ito sa Golden Lock Respins. Kung walang Yuanbao symbols na makokolekta, magiging Multiplier Collection symbol ito kapag nagsimula ang Golden Lock Respin.",
+        "csText4": "Golden Locking Respins: Gumaganap ang simbolo ng Caishen bilang Multiplier Collection symbol.",
+        "csText5": "Multiplier Collection Symbol: Kapag lumitaw ang simbolo ng Caishen sa screen, kinokolekta nito ang lahat ng Yuanbao bonuses at idinadagdag sa sarili. Pagkatapos ay nag-aapply ng karagdagang multiplier na x2 hanggang x20.",
+        "jackpotSymbHeading": "SIMBOLO NG JACKPOT",
+        "jackPotSymbolText1": "Ang mga simbolo ng Jackpot ay lumalabas sa lahat ng reels. Jackpot prize: Fixed Multiplier x Halaga ng Pustahan ng Manlalaro",
+        "msSymbolHeading": "SIMBOLO NG MISTERYO",
+        "msText1": "Lumalabas ang simbolo ng Misteryo sa main game at Golden Lock Respin.",
+        "msText2": "Main Game: Kapag lumitaw sa winning line, random na magbibigay ng Yuanbao symbol o Jackpot prizes.",
+        "msText3": "Kapag lumitaw ang simbolo ng Misteryo sa main game at nag-trigger ng Golden Lock Respin, dadalhin ito sa Golden Lock Respin.",
+        "msText4": "Golden Lock Respin: Kapag lumitaw ang simbolo ng Misteryo sa Golden Lock Respin, random nitong ibubunyag ang Yuanbao o Jackpot prize bago ang final settlement.",
+        "jmsSymbolHeading": "SIMBOLO NG MISTERYO NG JACKPOT",
+        "jmsText1": "Ang simbolong ito ang Jackpot Mystery symbol, na lumalabas lamang sa Golden Lock Respins.",
+        "jmsText2": "Ipinapakita nito ang sarili bago ang settlement at ipapakita lamang ang simbolo ng Jackpot.",
+        "glrSymbolHeading": "GOLDEN LOCK RESPIN",
+        "glrText1": "Sa bawat pag-trigger ng Golden Lock Respin, makakatanggap ka ng 3 spins.",
+        "glrText2": "Kung may lumabas na Yuanbao symbols, Jackpot symbol, Mystery symbols, Jackpot Mystery Symbol, o Caishen symbol, mare-reset ang spins sa 3 muli.",
+        "glrText3": "Sa Golden Lock Respin, kung napuno ang lahat ng posisyon ng reel ng anumang simbolo, ibibigay ang Buong Reel na Gantimpalang Malaking Jackpot, na isang fixed 3,000x multiplier ng pustahan ng manlalaro.",
+        "mpfSymbolHeading": "TAMPOK NG MONEY POT",
+        "mpfText1": "Sa main game, kapag lumitaw ang simbolo ng Caishen sa screen, random na na-trigger ang tampok.",
+        "mpfText2": "Kapag na-trigger ang tampok, ipapakita ng screen nang random ang mga simbolo ng Yuanbao o Caishen.",
+        "mpfText3": "Ang bilang ng Yuanbao sa Money Pot ay hindi nakakaapekto sa posibilidad.",
+        "multiplierValue": "0.5x, 1x, 2x"
+    },
+    "headings": {
+        "gameName": "MONEY POT",
+        "winUpto": "MANALO HANGGANG 3,000 X PUSTAHAN"
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "gamerules": {
+    "rtp": "97.00%.",
+    "lastdate": "14 Jun 2022",
+    "gamerules1": "Money Pot ialah slot video 3 kekili dan 3 baris.",
+    "gamerules2": "Bilangan garis bayaran adalah tetap pada 3, membayar dari kiri ke kanan.",
+    "yuanboSymbolHeading": "SIMBOL YUANBAO",
+    "yuanboSymbolText": "Simbol Yuanbao sepadan dengan Pengganda berikut",
+    "maxWinRule": "MENANG MAKSIMUM: Jumlah kemenangan maksimum dihadkan kepada 3,000x pertaruhan dalam permainan asas dan juga Respin Kunci Emas. Jika jumlah kemenangan dalam satu pusingan mencapai 3,000x pertaruhan, pusingan akan tamat serta-merta, kemenangan akan diberikan, dan semua putaran yang tinggal dibatalkan.",
+    "csSymbHeading": "SIMBOL CAISHEN",
+    "csText1": "Simbol Caishen akan muncul di semua kekili. Dalam permainan asas, Caishen berfungsi sebagai simbol Koleksi apabila muncul pada garis kemenangan, dan sebagai simbol Serak apabila muncul di kekili tengah.",
+    "csText2": "Simbol Koleksi: Simbol Caishen mengumpul semua bonus Yuanbao di skrin dan menambahkannya kepada dirinya sendiri tanpa membuang bonus Yuanbao.",
+    "csText3": "Simbol Serak: Simbol Caishen mengumpul semua bonus Yuanbao di skrin dan membawanya ke dalam Respin Kunci Emas. Jika tiada simbol Yuanbao untuk dikumpul, ia akan menjadi simbol Koleksi Pengganda apabila Respin Kunci Emas bermula.",
+    "csText4": "Respin Kunci Emas: Simbol Caishen bertindak sebagai simbol Koleksi Pengganda.",
+    "csText5": "Simbol Koleksi Pengganda: Jika simbol Caishen muncul di skrin, ia mengumpul semua bonus Yuanbao dan menambahkannya kepada dirinya sendiri. Kemudian ia menggunakan pengganda tambahan dari x2 hingga x20.",
+    "jackpotSymbHeading": "SIMBOL JACKPOT",
+    "jackPotSymbolText1": "Simbol Jackpot muncul di semua kekili. Hadiah Jackpot: Pengganda Tetap x Jumlah Pertaruhan Pemain",
+
+    "msSymbolHeading": "SIMBOL MISTERI",
+    "msText1": "Simbol Misteri muncul dalam permainan utama dan Respin Kunci Emas.",
+    "msText2": "Permainan Utama: Muncul di garis kemenangan akan memberikan secara rawak simbol Yuanbao atau hadiah Jackpot.",
+    "msText3": "Jika simbol Misteri muncul dalam permainan utama dan mencetuskan Respin Kunci Emas, ia akan dibawa masuk ke dalam Respin Kunci Emas.",
+    "msText4": "Respin Kunci Emas: Jika simbol Misteri muncul semasa Respin Kunci Emas, ia akan mendedahkan secara rawak hadiah Yuanbao atau Jackpot sebelum penyelesaian akhir.",
+
+    "jmsSymbolHeading": "SIMBOL MISTERI JACKPOT",
+    "jmsText1": "Simbol ini ialah simbol Misteri Jackpot, yang hanya muncul semasa Respin Kunci Emas.",
+    "jmsText2": "Ia akan mendedahkan dirinya sebelum penyelesaian dan hanya akan mendedahkan simbol Jackpot.",
+
+    "glrSymbolHeading": "RESPIN KUNCI EMAS",
+    "glrText1": "Setiap kali Respin Kunci Emas dicetuskan, anda akan menerima 3 putaran.",
+    "glrText2": "Jika mana-mana simbol Yuanbao, simbol Jackpot, simbol Misteri, simbol Misteri Jackpot, atau simbol Caishen muncul, putaran akan diset semula kepada 3.",
+    "glrText3": "Semasa Respin Kunci Emas, jika semua posisi kekili dipenuhi dengan mana-mana simbol, Ganjaran Kekili Penuh Jackpot Grand akan diberikan, iaitu pengganda tetap 3,000x pertaruhan pemain.",
+
+    "mpfSymbolHeading": "CIRI MONEY POT",
+    "mpfText1": "Dalam permainan utama, jika simbol Caishen muncul di skrin, ciri ini akan dicetuskan secara rawak.",
+    "mpfText2": "Apabila ciri dicetuskan, skrin akan memaparkan secara rawak simbol Yuanbao atau simbol Caishen.",
+    "mpfText3": "Bilangan Yuanbao dalam Money Pot tidak mempengaruhi kebarangkalian.",
+    "multiplierValue": "0.5x, 1x, 2x"
+  },
+  "headings": {
+    "gameName": "MONEY POT",
+    "winUpto": "MENANG SEHINGGA 3,000 X PERTARUHAN"
+  }
+}

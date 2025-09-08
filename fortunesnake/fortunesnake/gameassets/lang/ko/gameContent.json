@@ -1,0 +1,20 @@
+{
+  "wildText": "골든 락 리스핀,  9 개의 심볼을 모두 모으면 그랜드 잭팟 획득.",
+  "scatterText": "중간 릴에 재신이 나타나면 골든 락 리스핀이 발동됩니다.",
+  "youwonText": "당신이 이겼습니다",
+  "congratsText": "축하합니다!",
+  "FStext1": "골든 락 리스핀",
+  "FStext2": "9 개 심볼 모두 홀드",
+  "FStext3": "하면 받을 수 있음",
+  "FStext4": "그랜드 잭팟!",
+  "totalWin": "총 승리",
+  "BS_content": "0.5x, 1x, 2x 의 랜덤 배수 포함",
+  "CS_content": "차이셴 심볼은 수집 심볼 또는 스캐터 심볼로 작동할 수 있습니다.",
+  "GS_content": "7x, 8x, 9x, 10x 의 랜덤 배수 포함",
+  "JMYS_content": "잭팟 미스터리 심볼은 무작위로 잭팟 보상을 나타냅니다.",
+  "MYS_content": "미스터리 심볼은 당첨 라인에서 무작위로 위안바오 또는 잭팟 보상을 나타냅니다.",
+  "Major_content": "50x 배수",
+  "Mini_content": "15x 배수",
+  "Minor_content": "25x 배수",
+  "SS_content": "3x, 4x, 5x, 6x 의 랜덤 배수 포함"
+}
